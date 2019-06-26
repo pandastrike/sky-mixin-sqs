@@ -1,0 +1,43 @@
+{
+  "name": "sky-mixin-sqs",
+  "version": "0.0.1",
+  "description": "Grant your Sky deployment access to AWS SQS",
+  "main": "build/npm/src/index.js",
+  "files": [
+    "build/npm/src/",
+    "files/",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandastrike/sky-mixin-sqs.git"
+  },
+  "keywords": [
+    "AWS",
+    "Sky",
+    "Panda",
+    "Sky",
+    "SQS",
+    "queuing"
+  ],
+  "author": "David Harper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandastrike/sky-mixin-sqs/issues"
+  },
+  "homepage": "https://github.com/pandastrike/sky-mixin-sqs#readme",
+  "devDependencies": {
+    "panda-9000": "^4.4.0",
+    "panda-builder": "^3.2.1"
+  },
+  "dependencies": {
+    "panda-parchment": "^4.2.0",
+    "panda-quill": "^3.4.5",
+    "panda-serialize": "^0.4.0",
+    "panda-sky-mixin": "0.0.4",
+    "sundog": "^4.0.0"
+  }
+}
