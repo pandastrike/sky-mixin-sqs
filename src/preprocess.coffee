@@ -1,9 +1,9 @@
-# Panda Sky Mixin: SQS
-# The preprocessor needs to scan region and VPC configurations to setup a connection to those services, if needed.
+preprocess = (SDK, global, meta, local) ->
 
-preprocess = (SDK, config) ->
-
-  vpc: config.aws.vpc
-  region: config.aws.region
+  if meta.vpc
+    vpc: meta.vpc
+    region: global.region
+  else
+    false
 
 export default preprocess
